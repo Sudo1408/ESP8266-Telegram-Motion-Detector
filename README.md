@@ -58,11 +58,11 @@ To integrate your ESP8266 device with Telegram, you'll need to create a Telegram
 
 Contributions are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
-coding vibes 🧑‍💻
-
 ## Contact
 
 For any questions or inquiries, feel free to contact me at:
 
 - **Email**: [My Outlook](mailto:mohamedsayedmohamed88@gmail.com)
 - **LinkedIn**: [My Profile](https://www.linkedin.com/in/mohamed-sayed-mohamed-0366b0246/)
+
+coding vibes 🧑‍💻
