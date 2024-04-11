@@ -15,6 +15,10 @@ This project utilizes an ESP8266 microcontroller to create a motion detector sys
 - LED indicator
 - Buzzer
 
+## Design
+
+![The Circuit](/images/Design.png)
+
 ## Dependencies
 
 - [ESP8266WiFi](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WiFi)
