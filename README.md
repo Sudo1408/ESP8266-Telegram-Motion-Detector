@@ -62,7 +62,7 @@ Contributions are welcome! If you find any issues or have ideas for improvements
 
 For any questions or inquiries, feel free to contact me at:
 
-- **Email**: [My Outlook](mailto:mohamedsayedmohamed88@gmail.com)
+- **Email**: [mohamedsayedmohamed88@outlook.com](mailto:mohamedsayedmohamed88@gmail.com)
 - **LinkedIn**: [My Profile](https://www.linkedin.com/in/mohamed-sayed-mohamed-0366b0246/)
 
 coding vibes 🧑‍💻
