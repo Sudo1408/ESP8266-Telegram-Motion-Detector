@@ -39,6 +39,9 @@ This project utilizes an ESP8266 microcontroller to create a motion detector sys
 
 Contributions are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request.
 
-## License
+## Contact
 
-This project is licensed under the [MIT License](LICENSE).
+For any questions or inquiries, feel free to contact me at:
+
+- **Email**: [My Outlook](mailto:mohamedsayedmohamed88@gmail.com)
+- **LinkedIn**: [My Profile](https://www.linkedin.com/in/mohamed-sayed-mohamed-0366b0246/)
