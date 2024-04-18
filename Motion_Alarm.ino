@@ -13,13 +13,13 @@ WiFiClientSecure client;
 UniversalTelegramBot* bot;
 
 // Define the pin numbers for the PIR sensor, LED, and buzzer
-const int pirPin = D1;    // PIR sensor connected to GPIO pin 2
-const int buzzerPin = D2; // Buzzer connected to GPIO pin 4
-const int ledPin = D3;    // LED connected to GPIO pin 5
+const int pirPin = D1;    // PIR sensor connected to D1
+const int buzzerPin = D2; // Buzzer connected to D2
+const int ledPin = D3;    // LED connected to D3
 
 // Define variables for period and timers
 unsigned long previousMillis = 0;
-const long period = 6000; // Period in milliseconds (e.g., 6 seconds)
+const long period = 7000; // Period in milliseconds (e.g., 7 seconds)
 
 void setup() {
   // Set up serial monitor
@@ -77,6 +77,7 @@ void loop() {
       digitalWrite(ledPin, LOW); // Turn off the LED
       sendMessage("[+] Alert!! [+]");
       sendMessage("[+] Motion Detected [+]");
+      delay(period);
     } else {
       // If no motion is detected, turn off the LED and buzzer
       digitalWrite(ledPin, LOW);
