@@ -19,7 +19,7 @@ const int ledPin = D3;    // LED connected to D3
 
 // Define variables for period and timers
 unsigned long previousMillis = 0;
-const long period = 7000; // Period in milliseconds (e.g., 7 seconds)
+const long period = 3000; // Period in milliseconds (e.g., 7 seconds)
 
 void setup() {
   // Set up serial monitor
@@ -68,15 +68,21 @@ void loop() {
     int pirState = digitalRead(pirPin);
   
     if (pirState == HIGH) {
-      Serial.println("Motion Detected!");
-      // If motion is detected, turn on the LED and activate the buzzer
-      digitalWrite(ledPin, HIGH);
-      digitalWrite(buzzerPin, HIGH);
-      delay(1000);
-      digitalWrite(buzzerPin, LOW);
-      digitalWrite(ledPin, LOW); // Turn off the LED
+      for (int i = 0; i < 3; i++) {
+        Serial.println("Motion Detected!");
+        // If motion is detected, turn on the LED and activate the buzzer
+        digitalWrite(ledPin, HIGH);
+        // Make the sound with high frequency
+        tone(buzzerPin, 1000);
+        delay(1000);
+        noTone(buzzerPin);
+        delay(1000);
+        digitalWrite(ledPin, LOW); // Turn off the LED
+      }
+      // The Messages will send to telegram
       sendMessage("[+] Alert!! [+]");
       sendMessage("[+] Motion Detected [+]");
+      // delay to stop the operation sometime after detecting motion
       delay(period);
     } else {
       // If no motion is detected, turn off the LED and buzzer
