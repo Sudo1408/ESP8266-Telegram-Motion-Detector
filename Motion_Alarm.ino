@@ -19,7 +19,7 @@ const int ledPin = D3;    // LED connected to D3
 
 // Define variables for period and timers
 unsigned long previousMillis = 0;
-const long period = 3000; // Period in milliseconds (e.g., 7 seconds)
+const long period = 3000; // Period in milliseconds (e.g., 3 seconds)
 
 void setup() {
   // Set up serial monitor
